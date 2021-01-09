@@ -3,8 +3,8 @@ class Waiter
   
   @@all 
   
-  def initialize(customer_name, age)
-    @name = customer_name
+  def initialize(waiter_name, age)
+    @name = waiter_name
     @years = age
     @@all << self
     @all_customers = []
